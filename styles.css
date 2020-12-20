@@ -1,0 +1,157 @@
+html, body {
+    margin: 0;
+    padding:0;
+}
+
+body {
+    font-family: poppins;
+    font-weight: 20;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 940px;
+    padding: 0 10px;
+}
+
+header {
+    background: url(img/chem6.png) no-repeat center center;
+    background-size: cover;
+    height: 750px;
+    text-align: center;
+}
+
+header .container {
+position: relative;
+top: 400px;;
+}
+
+header h1 {
+    color: rgba(255, 255, 255, 0.856);
+    line-height: 100px;
+    font-size: 60px;
+    margin-top: 0;
+    margin-bottom: 80px;
+}
+header p {
+    color: white;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+@media (min-width:850px) {
+    .header h1 {
+      font-size: 120px;
+    }
+
+}
+
+.btn {
+    background: rgb(197, 195, 195);
+    color:black;
+    padding: 10px 60px;
+    text-decoration: none;
+    transition: background .5s;
+}
+
+.nav {
+    background: rgb(95, 95, 95);
+    height: 80px;
+    width: 100%;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.nav ul li {
+    color: white;
+    display: inline-block;
+    line-height: 80px;
+    list-style: none;
+    padding: 0 20px;
+    transition: background 0.5s;
+}
+
+.btn:hover, .nav ul li:hover {
+    background: white;
+    color: black;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+.main .container {
+    margin: 80px auto;
+}
+
+.main img {
+    float: left;
+    height: 250px;
+    width: 200px;
+    border: 3px solid black;
+    margin: 10px 80px 50px 0;
+}
+
+.jumbotron {
+    background: url(img/chmm.jpg) center center;
+    background-size: cover;
+    height: 600px;
+}
+
+.jumbotron .container {
+    position: relative;
+    top: 220px;
+}
+
+.jumbotron h2{
+color: white;
+text-align: right;
+}
+
+.jumbotron p {
+    color: white;
+text-align: right;
+}
+
+.jumbotron .btn {
+    margin: 10px 0 0;
+    float: right;
+}
+
+footer {
+    background: rgb(59, 58, 58);
+    height: 135px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+footer .container {
+    color: white;
+    text-align: center;
+}
+
+footer .container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    
+}
+
+footer .container ul li {
+    display: inline-block;
+    line-height: 80px;
+    height: 80px;
+    padding: 0 20px;
+    
+}
+
+footer .container ul li:hover {
+    background: cornsilk;
+    color: black;
+    cursor: pointer;
+    transition: background 0.5s;
+}
